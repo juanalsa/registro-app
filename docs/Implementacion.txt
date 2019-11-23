@@ -1,0 +1,35 @@
+A continuación el detalle de las aplicaciones desarrolladas:
+
+Frontend
+-------------
+- Angular 8
+- Bootstrap
+
+- Repositorio
+HTTPS => https://github.com/juanalsa/front-app.git
+SSH => git@github.com:juanalsa/front-app.git
+
+Se implementó servicio para la ejecución del API Rest del Backend y los componentes para Listar Estudiantes, Editar Estudiante, Eliminar Estudiante, Crear Estudiante y Detalle Estudiante.
+
+
+Backend
+-------------
+
+- El modelo ER se encuentra en el archivo adjunto "MER_RegistroApp.pdf" (También dentro del proyecto: registro-app/docs/ )
+- El proyecto cuenta con los archivos de migración de tablas (registro-app/database/migrations)
+- Se creó carpeta con los Export de BD y tablas dentro del proyecto (registro-app/database/backup)
+- URL API => http://localhost/~usuario/registro-app/api/metodo 
+
+Por ejemplo (En mi maquina local):
+http://localhost/~jaas3088/registro-app/api/estudiantes
+http://localhost/~jaas3088/registro-app/api/estudiantes/1
+
+Se implementaron las rutas para los metodos GET, POST, PUT y DELETE sobre el modelo de la tabla de Estudiantes (tbl_estudiantes)
+
+- PHP 7.3.11
+- MariaDB Server - 10.3.18
+- Laravel 5.6
+
+- Repositorio 
+HTTPS => https://github.com/juanalsa/registro-app.git
+SSH => git@github.com:juanalsa/registro-app.git
